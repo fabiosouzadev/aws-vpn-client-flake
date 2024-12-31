@@ -170,6 +170,7 @@ let
         Restart=always
         RestartSec=1s
         User=root
+        Environment=DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 
         [Install]
         WantedBy=multi-user.target
